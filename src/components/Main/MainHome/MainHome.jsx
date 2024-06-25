@@ -1,8 +1,10 @@
 import React from 'react'
-
+import ImgBinario from './ImgBinario'
 const MainHome = () => {
   return (
-    <div>MainHome</div>
+    <div>
+      <ImgBinario></ImgBinario>
+    </div>
   )
 }
 

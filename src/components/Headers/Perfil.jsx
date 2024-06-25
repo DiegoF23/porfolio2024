@@ -1,8 +1,8 @@
 import React from 'react'
-
+import '../../css/Headers/Perfil.css'
 const Perfil = () => {
   return (
-    <div>Perfil</div>
+    <div className='perfil'></div>
   )
 }
 
