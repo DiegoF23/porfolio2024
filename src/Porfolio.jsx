@@ -1,18 +1,18 @@
-import React from 'react'
-import { Routes,Route } from 'react-router-dom'
-import { routes } from '../src/constants/routes'
-import { Headers } from './components/Headers/Headers'
+import React from "react";
+//import { Routes, Route } from "react-router-dom";
+import { routes } from "../src/constants/routes";
+import { Headers } from "./components/Headers/Headers";
 const Porfolio = () => {
   return (
     <>
-    <Headers/>
-    <Routes>
-        {routes.map((route,index)=>(
-            <Route key={index} path={route.path} element={route.element}/>
+      <Headers />
+      <div>
+        {routes.map((route, index) => (
+          <section id={index}>{route.element}</section>
         ))}
-    </Routes>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Porfolio
+export default Porfolio;
