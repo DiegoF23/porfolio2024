@@ -1,4 +1,4 @@
-import  {Inicio } from "../pages/Inicio";
+import  {Inicio} from "../pages/Inicio";
 import Experiencia from "../pages/Experiencia";
 import Proyectos from "../pages/Proyectos";
 import Contacto from "../pages/Contacto";
