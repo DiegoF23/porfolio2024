@@ -6,11 +6,9 @@ const Porfolio = () => {
   return (
     <>
     <Headers/>
-    <Routes>
         {routes.map((route,index)=>(
-            <Route key={index} path={route.path} element={route.element}/>
+            <section  key={index} id={index}> {route.element} </section>
         ))}
-    </Routes>
     </>
   )
 }

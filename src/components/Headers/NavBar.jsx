@@ -1,17 +1,14 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { routes } from '../../constants/routes'
+import '../../css/Headers/Navbar.css'
 
 const NavBar = () => {
   return (
-    <nav>
-      <ul>
+    <nav className='navBar'>
         {routes.map((route,index)=>(
-          <li key={index}>
-            <Link to={route.path}>{route.name}</Link>
-          </li>
+            <Link className='navBarLink' to={route.path}>{route.name}</Link>
         ))}
-      </ul>
     </nav>
   )
 }

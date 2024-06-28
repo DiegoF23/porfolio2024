@@ -1,8 +1,15 @@
 import React from 'react'
+import '../../../css/Main/MainContacto/MainContacto.css'
 
 const MainContactos = () => {
   return (
-    <div>MainContactos</div>
+   <>
+    <div className='fondoContacto'>
+      
+      MainContactos
+    
+    </div>
+   </>
   )
 }
 
