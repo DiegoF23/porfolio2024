@@ -8,7 +8,7 @@ const Porfolio = () => {
       <Headers />
       <div>
         {routes.map((route, index) => (
-          <section id={index}>{route.element}</section>
+          <section key={index} id={index}>{route.element}</section>
         ))}
       </div>
     </>
