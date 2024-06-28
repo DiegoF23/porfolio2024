@@ -1,10 +1,13 @@
 import React from "react";
 import { Descripcion } from "../../../constants/Perfil";
+import '../../../css/Main/MainInicio/Perfil.css'
+
 const Perfil = () => {
   return (
     <>
-      <h1>Diego Flores Aguirres, Programador FullStack JR</h1>
-      <p>{Descripcion}</p>
+    <div className="ContenedorPerfil"><h1>Diego, Programador FullStack JR</h1>
+      <p>{Descripcion}</p></div>
+      
     </>
   );
 };

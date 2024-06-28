@@ -8,10 +8,14 @@ import '../../../css/Main/MainInicio/MainHome.css'
 const MainHome = () => {
   return (
     <div className='MainHome'>
-      <ImgBinario/>
-      <Perfil/>
+      <div className='contenedorimg'>
+        <ImgBinario/>
+      </div>
+      <div className='contenedordescripcion'>
+        <Perfil/>
       <ButtonViewCv/>
       <ButtonDownloadCv/>
+      </div>
     </div>
   )
 }

@@ -1,10 +1,13 @@
 import React from "react";
 import '../../../css/Main/MainInicio/ImgBinario.css'
+import PerfilImg from '../../../assets/images/imgPerfil.png'
 const ImgBinario = () => {
   return (
-    <div>
-     img
-    </div>
+    <>
+     <img src={PerfilImg} alt="" />
+    </>
+    
+    
   );
 };
 

@@ -1,5 +1,15 @@
 .MainHome{
-    background-color: rgb(255, 0, 0);
     color: white;
-    height: 100vh
-    }
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+
+.contenedorimg{
+    margin-left: 10% ;
+}
+
+.contenedordescripcion{
+    margin-right: 5%;
+    width: 150%;
+}

@@ -6,8 +6,10 @@ export const Headers = () => {
   return (
     <>
         <div className='Headers'> {/*   contenedor principal para ordenar en headers */}
+           <div className='BodyHeaders'>
             <Perfil/>
             <NavBar/>
+           </div>
         </div>
     </>
   )
