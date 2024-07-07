@@ -1,3 +1,10 @@
 .Headers{
-    background-color: #121212;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.BodyHeaders{
+    display:flex;
+    justify-content: space-between;
 }

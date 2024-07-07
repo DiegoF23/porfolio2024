@@ -1,0 +1,17 @@
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    font-size: 100%;
+    padding-right: 2%;
+}
+
+.navBarLink{
+    text-decoration: none;
+    color: white;
+}
+
+.navBarLink:focus{
+    color: rgb(140, 209, 65);
+}

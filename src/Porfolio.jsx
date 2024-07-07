@@ -5,12 +5,10 @@ import { Headers } from "./components/Headers/Headers";
 const Porfolio = () => {
   return (
     <>
-      <Headers />
-      <div>
-        {routes.map((route, index) => (
-          <section key={index} id={index}>{route.element}</section>
+    <Headers/>
+        {routes.map((route,index)=>(
+            <section  key={index} id={index}> {route.element} </section>
         ))}
-      </div>
     </>
   );
 };
