@@ -1,0 +1,21 @@
+.CardProyectos{
+   
+    color: white;
+    display: flex;
+    
+
+}
+.Card{
+    background-color: rgb(4,4,4);
+    border-radius: 10px;
+    width: 250px;
+    height: 500px;
+}
+.IMGProyectos{
+    width: 243px;
+    border-radius: 0%;
+    border: none;
+}
+h4{
+    color: green;
+}

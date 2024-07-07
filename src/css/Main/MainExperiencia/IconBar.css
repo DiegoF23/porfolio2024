@@ -1,0 +1,11 @@
+.IconBar{
+    width: 80%;
+    border: 2px rgb(140,209,64) solid;
+    border-radius: 10px;
+    color: rgb(140,209,64)
+}
+.logos{
+    width: 50px;
+    background: none;
+    border: none;
+}
