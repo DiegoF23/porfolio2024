@@ -5,7 +5,7 @@ import { Experiencias } from "../../../constants/Perfil";
 const MainExperiencia = () => {
   return (
     <div className="MainExperiencia">
-      <div className="iconBar">
+      <div className="slider">
         <IconBar />
       </div>
       <h1>Experiencias</h1>

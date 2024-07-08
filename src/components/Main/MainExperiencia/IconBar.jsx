@@ -6,7 +6,7 @@ const IconBar = () => {
   return (
     <div className='IconBar'>
       {Icons.map((icon,index)=>(
-        <img className='logos' src={icon.Icon} alt=""></img>
+        <div key={index} className='logos'>{icon.Icon}</div>
     ))}
     </div>
   )

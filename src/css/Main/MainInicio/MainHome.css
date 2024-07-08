@@ -29,3 +29,7 @@
     margin-left: 10px;
 
 }
+
+.contenedorBotones button:hover{
+    background-color: rgba(0, 156, 25, 1);
+}
