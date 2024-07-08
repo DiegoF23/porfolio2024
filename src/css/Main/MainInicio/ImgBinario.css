@@ -1,9 +1,4 @@
-img{
-    
-    width: 100%;
-       
-}
-
-.contenedorimg{
-    
+.contenedorimg img{
+    width: 50%;
+    margin-left: 30%;
 }

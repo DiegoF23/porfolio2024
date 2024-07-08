@@ -1,4 +1,4 @@
-export const Descripcion = 'Desde que descubrí la programación, me ha fascinado la capacidad de resolver problemas complejos con soluciones elegantes. Como Programador Fullstack Jr, he trabajado en una variedad de proyectos, desde sistemas de gestión electoral hasta aplicaciones de mapeo y logística. Disfruto del desafío de crear aplicaciones funcionales y siempre busco aprender y mejorar. Con conocimientos en metodologías ágiles como SCRUM, estoy preparado para aplicarlas en entornos colaborativos. Mi compromiso con la innovación y el trabajo en equipo guía mi enfoque en cada proyecto.';
+export const Descripcion = 'Como Programador Fullstack Jr, he trabajado en una variedad de proyectos, desde sistemas de gestión electoral hasta aplicaciones de mapeo y logística. Con conocimientos en metodologías ágiles como SCRUM, estoy preparado para aplicarlas en entornos colaborativos.';
 export const Experiencias = [
     {
         titulo:'Desarrollo de Sistemas de Venta',

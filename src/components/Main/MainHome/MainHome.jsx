@@ -13,8 +13,11 @@ const MainHome = () => {
       </div>
       <div className='contenedordescripcion'>
         <Perfil/>
-      <ButtonViewCv/>
-      <ButtonDownloadCv/>
+        <div className='contenedorBotones'>
+        <ButtonViewCv />
+        <ButtonDownloadCv />
+        </div>
+      
       </div>
     </div>
   )

@@ -1,0 +1,15 @@
+
+.ContenedorPerfil div{
+    display: flex;
+}
+
+.h11{
+    color:   rgba(0, 156, 25, 1);
+  
+}
+
+.h12{
+    color: rgba(140, 209, 65, 1);
+    margin-left: 10px;
+}
+

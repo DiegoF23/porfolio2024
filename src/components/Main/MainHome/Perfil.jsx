@@ -5,7 +5,11 @@ import '../../../css/Main/MainInicio/Perfil.css'
 const Perfil = () => {
   return (
     <>
-    <div className="ContenedorPerfil"><h1>Diego, Programador FullStack JR</h1>
+    <div className="ContenedorPerfil">
+      <div>
+        <h1 className="h11">Soy Diego!, </h1>
+        <h1 className="h12">Programador FullStack JR.</h1>
+      </div>
       <p>{Descripcion}</p></div>
       
     </>
