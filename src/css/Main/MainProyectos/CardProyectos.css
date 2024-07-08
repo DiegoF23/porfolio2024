@@ -2,19 +2,21 @@
    
     color: white;
     display: flex;
-    
+    justify-content: space-around;
 
 }
 .Card{
     background-color: rgb(4,4,4);
     border-radius: 10px;
-    width: 250px;
+    width: 260px;
     height: 500px;
+    padding: 15px;
 }
 .IMGProyectos{
-    width: 243px;
-    border-radius: 0%;
+    width: 260px;
+    border-radius: 10px;
     border: none;
+
 }
 h4{
     color: green;

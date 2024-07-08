@@ -2,7 +2,7 @@ import  {Inicio} from "../pages/Inicio";
 import Experiencia from "../pages/Experiencia";
 import Proyectos from "../pages/Proyectos";
 import Contacto from "../pages/Contacto";
-import PDF from "../../public/pdf/CV_diegoFlores.pdf"
+import PDF from "/pdf/CV_diegoFlores.pdf"
 
 export const routes = [
     { 

@@ -6,7 +6,7 @@ const MainProyectos = () => {
   return (
     <div className='MainProyectos'>
       <h1>
-        En Mente algun proyecto ?
+        En Mente algun proyecto?
       </h1>
       <h2>{"{Trabajemos:'juntos!'}"}</h2>
       <h3>
