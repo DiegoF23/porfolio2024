@@ -1,3 +1,64 @@
-.fondoContacto{
-    background-color: yellowgreen;
+.MainContactos{
+    background-color: rgb(0,0,0);
+    color: white;
+    display: flex;
+    justify-content: center;
 }
+.AboutMe{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.ImgPerfil{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+h5{
+    color: green;
+}
+.p{
+    text-align: center;
+}
+
+.ContactMe{
+    width: 50%;
+
+}
+.Contactame{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.Contactame h2{
+    color: green;
+}
+
+.Contactame input {
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px green solid;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.ButtonSend{
+    margin: 5px;
+    background-color: rgb(0,156,26);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: auto;
+    
+}
+.Mensaje{
+    height: 150px;
+}
+

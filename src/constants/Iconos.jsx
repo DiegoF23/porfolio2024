@@ -1,4 +1,4 @@
-import reactIcon from '../../public/react.svg'
+import reactIcon from '/react.svg'
 
 export const Icons = [
     {
