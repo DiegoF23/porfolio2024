@@ -1,10 +1,11 @@
 import React from 'react'
 import { rutaPdf } from '../../../constants/routes'
+import "../../../css/Main/MainInicio/MainHome.css"
 
 const ButtonDownloadCv = () => {
   return (
     <a href={rutaPdf} download="CV_DiegoFlores.pdf">
-        <button>Descargar CV</button>
+        <button className='buttonDCV'>Descargar CV</button>
     </a>
   )
 }

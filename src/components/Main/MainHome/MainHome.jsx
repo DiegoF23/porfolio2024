@@ -15,7 +15,7 @@ const MainHome = () => {
         <Perfil/>
         <div className='contenedorBotones'>
         <ButtonViewCv />
-        <ButtonDownloadCv />
+        <ButtonDownloadCv/>
         </div>
       
       </div>

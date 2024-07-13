@@ -3,24 +3,27 @@
     height: 100vh;
     display:flex;
     align-items: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
 }
 
 .contenedorimg{
-    margin-left: 10% ;
-    
+    grid-column: 2/span 4;
 }
 
 .contenedordescripcion{
-    width: 50%;
-    margin-right: 10%;
+    grid-column: 6 / span 6;
 }
 
 .contenedorBotones{
-    margin-left: 60%;
+    display: flex;
+    justify-content: flex-end;
 }
 
+
+
 .contenedorBotones button{
-    background-color: transparent;
     padding: 10px;
     border: solid rgb(255, 255, 255) 1.5px;
     border-radius: 10px;
@@ -31,5 +34,32 @@
 }
 
 .contenedorBotones button:hover{
+    background-color: rgba(140, 209, 65, 1);
+    box-shadow: 0px 0px 4px rgb(146, 146, 146);
+}
+
+.buttonDCV{
     background-color: rgba(0, 156, 25, 1);
 }
+
+.buttonVCV{
+    background-color: transparent;
+}
+
+@media (min-width: 1400px) {
+    
+    .MainHome{
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .contenedorimg{
+        grid-column: 1/span 4;
+    }
+    
+    .contenedordescripcion{
+        grid-column: 5 / span 3;
+    }
+
+
+ }
+

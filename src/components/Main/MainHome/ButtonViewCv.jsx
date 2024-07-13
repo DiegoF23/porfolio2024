@@ -8,7 +8,7 @@ const ButtonViewCv = () => {
   }
 
   return (
-    <button onClick={openCV}>Ver CV</button>
+    <button onClick={openCV} className='buttonVCV'>Ver CV</button>
   )
 }
 

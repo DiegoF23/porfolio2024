@@ -1,28 +1,30 @@
 .slider{
-    width: calc(60px * 15);
+    width: calc(70px * 15);
     height: auto;
     border: 2px rgb(140,209,64) solid;
+    border-radius: 50px;
     color: rgb(140,209,65);
     overflow: hidden;
     white-space: nowrap;
-}
+    margin-left: 13%;
+  }
 
 .IconBar{
     
     display: flex;
     justify-content: space-around;
-    
-   animation: scroll 9s linear infinite;
-   
+   animation: scroll 25s linear infinite;
+   width: 200%;
 }
 
 .logos{
-   font-size: 40px;
+   font-size: 50px;
    display: flex;
    margin-top: 1%;
    margin-bottom: 1%;
-  
 }
+
+
 
 
 @keyframes scroll {
