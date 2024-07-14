@@ -1,0 +1,30 @@
+.MainExperiencia{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    grid-template-rows: repeat(12, auto);
+}
+
+.ContenedorSlider{
+
+}
+
+.slider {
+    width: calc(70px * 15);
+    border: 1px solid rgb(140, 209, 64);
+    border-radius: 20px;
+    color: rgb(140, 209, 65);
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+
+.Experiencias{
+   
+}
+
+.boxExperiencia{
+    background-color: wheat;
+}

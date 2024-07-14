@@ -7,7 +7,7 @@ const Perfil = () => {
     <>
     <div className="ContenedorPerfil">
       <h1>
-        <span className="h11">Soy Diego, </span>
+        <span className="h11"> Soy Diego, </span>
         <span className="h12">Programador FullStack JR.</span>
       
       </h1>
