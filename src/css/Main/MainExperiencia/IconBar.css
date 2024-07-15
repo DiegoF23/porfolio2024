@@ -9,27 +9,20 @@
 }
 
 .logos {
-  font-size: 50px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   margin: 0 10px;
   transition: transform 0.3s, color 0.3s;
 }
 
-.slider:hover .logos {
-  transform: scale(1);
-}
 
-.slider:hover .logos:hover {
-  transform: scale(1.2); 
-  color: rgba(0, 156, 25, 1);
-}
 
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-50px * 20);
   }
 }

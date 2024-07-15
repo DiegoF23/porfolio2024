@@ -1,12 +1,15 @@
-.MainExperiencia{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 10px;
-    grid-template-rows: repeat(12, auto);
+.MainExperiencia {
+    height: 90vh;
+    width: 98.6vw;
+    overflow: hidden;
 }
 
-.ContenedorSlider{
-
+.ContenedorSlider {
+display: flex;
+justify-content: center;
+height: 50px;
+margin: 0;
+width: 100vw;
 }
 
 .slider {
@@ -19,12 +22,91 @@
     position: relative;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 10px;
-  }
-
-.Experiencias{
-   
 }
 
-.boxExperiencia{
-    background-color: wheat;
+.slider:hover .logos {
+    transform: scale(1);
+}
+
+.slider:hover .logos:hover {
+    transform: scale(1.2); 
+    color: rgba(0, 156, 25, 1);
+}
+
+.Experiencias {
+    grid-row-start: 2;
+    grid-row-end: 10;
+    display: 'grid';
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    grid-template-rows: repeat(8v, auto);
+}
+
+.Experiencias h1 {
+    color: rgba(0, 156, 25, 1);
+    padding-left: 20px;
+    margin-bottom: -10px;
+}
+
+.Experiencias{
+    height: 100vh;
+}
+
+
+.contenedorBEXP {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    height: 400px;
+
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+.boxExperiencia {
+    width: 450px;
+    height: 170px;
+}
+
+.boxExperiencia p {
+    font-size: 12px;
+    color: white;
+}
+
+.line{
+    height: fit-content;
+}
+
+.line:nth-child(odd) {
+    border-bottom: 3px solid white;
+}
+
+.line:nth-child(even) {
+    border-top: 3px solid white;
+    transform: translateY(12em);
+}
+
+.line:nth-child(odd)::before,
+.line:nth-child(even)::before{
+    content: '';
+    background: #888;
+    height: 3em;
+    width: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-0%);
+}
+
+.line:nth-child(odd)::before{
+    bottom: 9;
+}
+
+.line:nth-child(even)::before{
+    left: 0;
 }
